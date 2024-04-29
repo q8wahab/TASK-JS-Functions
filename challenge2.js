@@ -7,9 +7,9 @@
  * greet("Hamza") logs "Hello Hamza"
  */
 function greet(name) {
-  // Your code here
+  console.log(`hello ${name}`);
 }
-
+greet("fahad");
 /**
  * isOdd(n):
  * - receives a number n
