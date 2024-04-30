@@ -9,7 +9,7 @@
 function greet(name) {
   console.log(`hello ${name}`);
 }
-greet("fahad");
+greet("Hamza");
 /**
  * isOdd(n):
  * - receives a number n
@@ -20,9 +20,13 @@ greet("fahad");
  * isOdd(10) -> false
  */
 function isOdd(n) {
-  // Your code here
+  if (n % 2 == 0) {
+    console.log("even number ");
+  } else {
+    console.log("odd number ");
+  }
 }
-
+isOdd(7);
 /**
  * oddsSmallerThan(n):
  * - receives a number n
@@ -33,9 +37,14 @@ function isOdd(n) {
  * oddsSmallerThan(15) -> 7
  */
 function oddsSmallerThan(n) {
-  // Your code here
+  // if (n % 2 == 0) {
+  //   console.log(3);
+  // } else {
+  //   console.log(7);
 }
+// }
 
+oddsSmallerThan(7);
 /**
  * squareOrDouble(n):
  * - receives a number n
@@ -47,5 +56,10 @@ function oddsSmallerThan(n) {
  * squareOrDouble(9) -> 81
  */
 function squareOrDouble(n) {
-  // Your code here
+  if (n % 2 == 0) {
+    console.log(n * 2);
+  } else {
+    console.log(n * n);
+  }
 }
+squareOrDouble(16);
